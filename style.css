@@ -21,7 +21,7 @@ body {
 .half-itm h1 span {
   color: #ffa500;
 }
-half itm a {
+.half-itm a.h-btn {
   text-decoration: none;
   color: #fff;
   font-weight: 700;
