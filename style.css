@@ -1,3 +1,31 @@
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0%;
+}
+.hero-section {
+  display: flex;
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+.half-itm img {
+  width: 100%;
+}
+.half-itm {
+  width: 40%;
+  padding-left: 2%;
+  margin-left: 5%;
+}
+.half-itm h1 {
+  font-size: 50px;
+}
+.half-itm h1 span {
+  color: #ffa500;
+}
+half itm a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 40px;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  border-radius: 5px;
 }
