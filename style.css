@@ -41,3 +41,42 @@ p {
   background-repeat: no-repeat;
   background-position: right;
 }
+.third-sec {
+  background-image: url("images/exp-bg.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.third-sec h1 {
+  font-size: 40px;
+}
+.third-sec .bx-dv {
+  display: flex;
+}
+.bx-dv .half-itm h1 {
+  font-size: 40px;
+}
+.third-sec .bx-dv#sdw-dv .half-itm#hlf-1 {
+  box-shadow: 5px 7px 40px gray;
+  padding-bottom: 90px;
+  border-left: 7px solid;
+  border-image: linear-gradient(lightsalmon, tomato);
+  border-image-slice: 1;
+}
+.third-sec .bx-dv#sdw-dv .half-itm#hlf-2 {
+  box-shadow: 5px 7px 40px gray;
+  padding-bottom: 80px;
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, lightskyblue);
+  border-image-slice: 1;
+}
+.third-sec .bx-dv .half-itm h3 {
+  color: #ffa500;
+}
+
+footer h3 {
+  text-align: center;
+  color: #696969;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
